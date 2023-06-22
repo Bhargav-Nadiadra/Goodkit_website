@@ -1,0 +1,11 @@
+{
+  "liveSassCompile.settings.forceBaseDirectory": "/assets/scss",
+
+  "json.schemas": [],
+  "workbench.settings.useSplitJSON": true,
+  "json.format.keepLines": true,
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  }
+}
