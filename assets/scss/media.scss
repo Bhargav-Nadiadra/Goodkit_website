@@ -1,0 +1,183 @@
+@media (min-width: 1400px){
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
+}
+
+@media (max-width: 1399px){
+.container{
+    padding: 0;
+}
+
+.stats-card-container{
+  margin-left: 45px;
+}
+
+.stats-card{
+  padding: 30px 25px 30px 25px;
+}
+
+.about-us-content{
+  margin: 0 87px 0 111px;
+}
+}
+
+@media (max-width: 992px){
+
+  .stats-card-container{
+    margin-left: 0;
+  }
+
+  .stats-card{
+    padding: 50px 30px 50px 30px;
+  }
+
+  .price-heading{
+    font-size: 40px;
+  }
+
+  .main-heading-big{
+    font-size: 48px;
+    line-height: 53.18px;
+  }
+
+  .main-heading-small{
+    font-size: 40px;
+  }
+
+  .plus-pattern{
+    top: -190px;
+    left: 7px;
+  }
+
+   .about-us-content{
+    margin: 0 40px;
+  }
+
+  .left-hero-section{
+    padding: 50px 0 0 0;
+  }
+
+}
+
+
+@media (max-width: 768px){
+
+  .left-hero-section{
+    padding:0;
+  }
+
+  .main-heading-big{
+    font-size: 50px;
+    text-align: center;
+  }
+
+
+  .right-hero-section{
+    position: relative;
+    top: 0;
+  }
+
+  .stats-card-container{
+    margin-left: 60px;
+    margin-bottom: 49px;
+  }
+
+  .about-us-content{
+    margin: 0;
+  }
+  
+  .btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+}
+
+@media (max-width: 576px) {
+
+  .hero-section{
+    padding: 0;
+  }
+
+  nav{
+    padding-top: 16px;
+  }
+
+  .link-spacing {
+    margin: 0;
+  }
+
+  li {
+    a{
+        font-size: 12px;
+        padding: 5px;
+    }
+  }
+
+  .main-heading-big{
+    display: none;
+  }
+
+  .main-heading-mobile{
+    display: initial;
+    font-size: 40px;
+    line-height: 43.2px;
+    font-weight: 400;
+}
+
+  .btn{
+    display: none;
+  }
+
+  .left-hero-section{
+    text-align: center;
+    padding: 200px 0 0 0 ;
+  }
+
+  .right-hero-section{
+    position: absolute;
+    top: 57px;
+  }
+
+  .stats-section{
+    padding: 0 10px
+  }
+
+  .plus-pattern{
+    top: 16%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .stats-card-container{
+    margin-top: 196px;
+    margin-left: 0;
+  }
+
+  .price-heading{
+    font-size: 36px;
+    line-height: 38.52px;
+  }
+
+  .stats-card{
+    padding: 50px 16px 45px 39px;
+  }
+
+  .about-us-content{
+    margin: 0
+  }
+
+  .main-heading-small{
+    font-size: 36px;
+    line-height: 38.88px;
+  }
+
+  .checklist{
+    flex-direction: column;
+  }
+
+} 

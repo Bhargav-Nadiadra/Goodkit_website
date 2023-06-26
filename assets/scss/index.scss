@@ -1,10 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Serif+Display&display=swap');
 $primary: #6658EA;
+
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Serif Display', serif;
+    // border: 1px solid red;
 }
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+.main-heading-big{
+font-size: 64px;
+font-weight: 400;
+font-family: 'DM Serif Display', serif;
+line-height: 69.12px;
+ color: #1B1642;
+}
+
+.main-heading-small{
+font-size: 48px;
+font-weight: 400;
+line-height :51.84px;
+font-family: 'DM Serif Display', serif;
+ color: #1B1642;
+}
+
+.price-heading{
+    font-size: 48px;
+    font-weight: 700;
+    line-height :51.84px;
+    font-family: 'DM Sans', sans-serif;
+    color: #1B1642;
+}
+
+.sub-content{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 28.8px;
+    color: #1B1642;
+}
+
+.main-heading-mobile{
+    display: none;
+}
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
 
 .color-bar{
     display: flex;
@@ -31,6 +87,12 @@ $primary: #6658EA;
     }
 }
 
+nav{
+    background: #F3F8FF;
+    padding-top: 32px;
+    margin: 0;
+}
+
 li {
     a{
         color: #1B1642;
@@ -38,29 +100,98 @@ li {
 }
 
 .link-spacing{
-    margin: 0 60px
+    margin: 0 56px
 }
 
-.diagonal-box {
- 	position: relative;
+.skewed {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 849px;
+  background: #F3F8FF;
+  z-index: -1;
+  transform: skewY(-6deg);
+  transform-origin: top left;
 }
 
-.diagonal-box:before {
-    content: '';
-	position: absolute;
-    top: 0;
+.hero-section{
+    padding-bottom: 355px;
+}
+
+
+.left-hero-section{
+    padding-top: 236px;
+    padding-left: 160px;
+}
+
+.right-hero-section{
+    position: absolute;
+    top: 167px;
     right: 0;
-    left: 0;
-    bottom: 0;
-    background: #F3F8FF; 	
-    transform: skewY(-11deg);
+    max-width: 975px;
     z-index: -1;
 }
 
-.content {
-	max-width: 50em;
-    margin: 0 auto;
-    position: relative;
+.btn{
+    padding: 0;
+
+    .get-started{
+        background: $primary;
+        border:none;
+        padding: 15px 28px 15px 28px;
+        border-radius: 8px 0 8px  0;
+        color: white;
+        margin-right: 18px;
+        box-shadow: 0px 14px 24px 0px rgba(27, 22, 66, 0.06), 0px 0px 6px 0px rgba(0, 0, 0, 0.03);
+    }
+
+    .learn-more{
+        background: white;
+        color: $primary;
+        border:none;
+        padding: 15px 28px 15px 28px;
+        border-radius: 8px 0 8px  0;
+        box-shadow: 0px 14px 24px 0px rgba(27, 22, 66, 0.06), 0px 0px 6px 0px rgba(0, 0, 0, 0.03);
+    }
 }
 
+.plus-pattern{
+    position: absolute;
+    top: -200px;
+    left: 100px;
+    max-width: 278px;
+}
 
+.stats-card-container{
+    z-index: 10;
+    margin-left: 142px;
+    margin-top: -145px;
+    max-width: 448px;
+}
+
+.stats-card{
+    border-radius: 20px 0 20px 0;
+    background: white;
+    padding: 50px 108px 50px 44px;
+    box-shadow: 0px 44px 74px 0px #1A15470F , 0px 0px 24px 0px #0000000A;;
+}
+
+hr{
+    color: #EAF2FE;
+    border: 1px solid;
+    border-top: #EAF2FE;
+    opacity: 1.25;
+}
+
+.out-of-card{
+    max-width: 448px;
+    margin: 0;
+    border: 3px solid#7085F5;
+}
+
+.about-us-content{
+    margin-left: 222px;
+    margin-right: 174px;
+}
