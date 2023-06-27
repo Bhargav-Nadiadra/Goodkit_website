@@ -40,11 +40,10 @@
                 </ul>
             </div>
         </nav>
-
     </header>
+
     <section class="hero-section">
-        <div class="skewed">
-        </div>
+        <div class="skewed"></div>
         <div class="container">
             <div class="d-flex flex-sm-column-reverse">
                 <div class="left-hero-section col-sm-12 col-md-6 col-lg-6">
@@ -53,7 +52,7 @@
                     <h1 class="main-heading-mobile">Plan your future <br> <span style="color: #687DED;">without
                             hassle</span>
                     </h1>
-                    <p class="sub-content">We’ll handle all your finances for free without you ever seeing a
+                    <p class="sub-content my-4">We’ll handle all your finances for free without you ever seeing a
                         person. No
                         fees. No bullshit.
                     </p>
@@ -68,15 +67,15 @@
             </div>
         </div>
     </section>
+
     <section class="stats-section position-relative">
         <div class="plus-pattern">
             <img class="img-fluid" src="assets/images/icons/Plus Pattern.png" alt="">
         </div>
 
         <div class="container">
-
-            <div class="row m-0">
-                <div class="col-sm-12 col-md-5 col-lg-4 stats-card-container p-0">
+            <div class="row stats m-0">
+                <div class="col stats-card-container p-0">
                     <hr class="out-of-card" style="color: #7085F5;">
                     <div class="stats-card d-flex flex-column justify-content-between">
                         <div>
@@ -123,8 +122,75 @@
                 </div>
             </div>
         </div>
-
     </section>
+
+    <section class="advisor-section">
+        <div class="container">
+            <div class="row advisor-container m-0">
+                <div class="col-sm-12 col-md-6 col-lg-6  advisor-left">
+                    <h1 class="main-heading-small">Professional advisors for rebalancing.</h1>
+                    <p class="sub-main-heading">Solo 401K</p>
+                    <p class="sub-content">Developed to help freelance designers to save for their retirement during
+                        high
+                        income phases.</p>
+                    <p class="sub-main-heading">Direct Deposit</p>
+                    <p class="sub-content">Developed to help freelance designers to save for their retirement during
+                        high
+                        income phases. This is
+                        still the coolest
+                        text section in the game.</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 advisor-right  p-0">
+                    <img class="img-fluid" src="assets/images/Illustration-2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <div class="container">
+            <hr class="common-hr mx-auto">
+            </hr>
+            <p class="text-warning text-center">MANAGEMENT FUND</p>
+
+            <div class="slider" slick="">
+                <div>
+                    <div>
+                        <h1 class="testimonial-heading testimonial-content">“I would’ve quit years ago if it weren’t for
+                            Goodkit.”</h1>
+                        <div>
+                            <img class="mx-auto profile-pic" src="assets/images/profile-pic.png" alt="">
+                        </div>
+                        <p class="text-center name">David Gamache</p>
+                        <p class="text-center name2">David Gamache</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h1 class="testimonial-heading testimonial-content">“I would’ve quit years ago if it weren’t for
+                            Goodkit.”</h1>
+                        <div>
+                            <img class="mx-auto profile-pic" src="assets/images/profile-pic.png" alt="">
+                        </div>
+                        <p class="text-center name">David Gamache</p>
+                        <p class="text-center name2">David Gamache</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h1 class="testimonial-heading testimonial-content">“I would’ve quit years ago if it weren’t for
+                            Goodkit.”</h1>
+                        <div>
+                            <img class="mx-auto profile-pic" src="assets/images/profile-pic.png" alt="">
+                        </div>
+                        <p class="text-center name">David Gamache</p>
+                        <p class="text-center name2">David Gamache</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- <footer>
         <div class="color-bar d-flex justify-content-between">
             <div class="bar bar-1"></div>
@@ -141,6 +207,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(".slider").slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            autoplay: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            prevArrow: '<span class="prev-arrow"><i class="bi bi-arrow-left"></i></span>',
+            nextArrow:
+                '<span class="next-arrow"><i class="bi bi-arrow-right"></i></span>',
+        });
+
+    </script>
 </body>
 
 </html>

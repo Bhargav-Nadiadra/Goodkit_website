@@ -8,7 +8,7 @@ $primary: #6658EA;
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
     font-family: 'DM Serif Display', serif;
-    // border: 1px solid red;
+    border: 1px solid red;
 }
 
 p{
@@ -34,6 +34,16 @@ font-weight: 400;
 line-height :51.84px;
 font-family: 'DM Serif Display', serif;
  color: #1B1642;
+}
+
+.sub-main-heading{
+    font-size: 20px;
+    font-weight: 700;
+    line-height :32px;
+    font-family: 'DM Sans', sans-serif;
+    color: #1B1642;
+    margin-top: 36px;
+    margin-bottom: 7px;
 }
 
 .price-heading{
@@ -109,7 +119,7 @@ li {
   bottom: 0;
   right: 0;
   left: 0;
-  height: 849px;
+  height: 942px;
   background: #F3F8FF;
   z-index: -1;
   transform: skewY(-6deg);
@@ -160,7 +170,7 @@ li {
 .plus-pattern{
     position: absolute;
     top: -200px;
-    left: 115px;
+    left: 130px;
     max-width: 278px;
 }
 
@@ -194,4 +204,87 @@ hr{
 .about-us-content{
     margin-left: 222px;
     margin-right: 174px;
+}
+
+.advisor-section{
+    padding-left: 142px;
+}
+
+.advisor-left{
+    padding-top: 131px;
+    padding-right: 84px;
+}
+
+.common-hr{
+    width: 78px;
+    border: 2px solid #FFC267;
+    opacity: 100%;
+}
+
+.slick-prev:before, .slick-next:before{
+    background: $primary;
+    box-shadow: 0px 14px 24px 0px #1B16420F, 0px 0px 6px 0px #00000008;
+
+}
+
+.slick-prev{
+    left: 0;
+}
+
+.slick-next{
+    right: 0;
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+}
+
+.slider .prev-arrow {
+    background: $primary;
+    color: white;
+    padding: 23px;
+    cursor: pointer;
+}
+
+.slider .next-arrow {
+    background: $primary;
+    color: white;
+    padding: 23px;
+    cursor: pointer;
+}
+
+.testimonial-heading{
+  font-size: 64px;
+font-weight: 400;
+font-family: 'DM Serif Display', serif;
+line-height: 69.12px;
+ color: #1B1642;  
+}
+
+.testimonial-content{
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.profile-pic{
+    margin-top: 58px;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'DM Sans';
+    line-height: 28.8px;
+    color: #1B1642;
+}
+
+.name2{
+    font-size: 16px;
+    font-weight: 400;
+      font-family: 'DM Sans';
+    line-height: 25.6px;
+    color: #1B1642;
 }
