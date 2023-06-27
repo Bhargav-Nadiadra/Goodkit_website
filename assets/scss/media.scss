@@ -22,12 +22,40 @@
 .about-us-content{
   margin: 0 87px 0 111px;
 }
+.main-heading-big {
+    font-size: 58px;
+    line-height: 47.12px;
 }
+
+.left-hero-section{
+  padding-left: 40px;
+}
+
+.sub-content{
+  max-width: 448px;
+}
+}
+
+@media (max-width: 1199px){
+  .main-heading-big{
+    font-size: 48px;
+  }
+
+  .right-hero-section{
+    max-width: 785px;
+  }
+
+  .sub-content{
+  max-width: 100%;
+}
+}
+
 
 @media (max-width: 992px){
 
   .stats-card-container{
     margin-left: 0;
+    margin-top: -60px;
   }
 
   .stats-card{
@@ -48,8 +76,8 @@
   }
 
   .plus-pattern{
-    top: -190px;
-    left: 7px;
+    top: -30%;
+    left: 1%;
   }
 
    .about-us-content{
@@ -57,7 +85,15 @@
   }
 
   .left-hero-section{
-    padding: 50px 0 0 0;
+    padding: 150px 0 0 0;
+  }
+
+   .right-hero-section{
+  max-width: 530px;
+  }
+
+  .sub-content{
+    font-size: 16px;
   }
 
 }
@@ -67,11 +103,16 @@
 
   .left-hero-section{
     padding:0;
+    margin: 0 auto;
   }
 
   .main-heading-big{
-    font-size: 50px;
+    font-size: 54px;
     text-align: center;
+  }
+
+  .sub-content{
+    font-size: 16px;
   }
 
 
@@ -94,6 +135,17 @@
   justify-content: center;
   margin-top: 30px;
 }
+
+  .plus-pattern{
+      top: -23%;
+    left: 12%;
+  }
+
+  
+   .right-hero-section{
+  max-width: 740px;
+  }
+
 
 }
 
@@ -135,7 +187,7 @@
 
   .left-hero-section{
     text-align: center;
-    padding: 200px 0 0 0 ;
+    padding: 50% 0 0 0 ;
   }
 
   .right-hero-section{
