@@ -3,6 +3,9 @@
     max-width: 1440px;
     margin: 0 auto;
   }
+  .advisor-container {
+    flex-direction: row-reverse;
+  }
 }
 @media (max-width: 1399px) {
   .stats-card-container {
@@ -24,6 +27,9 @@
   .testimonial-heading {
     font-size: 53px;
     line-height: 55.12px;
+  }
+  .advisor-container {
+    flex-direction: row-reverse;
   }
 }
 @media (max-width: 1199px) {
@@ -93,9 +99,6 @@
   .advisor-left {
     padding: 0;
   }
-  .advisor-container {
-    flex-direction: row;
-  }
   .testimonial-heading {
     font-size: 30px;
     line-height: 33.12px;
@@ -141,9 +144,6 @@
   }
   .stats {
     flex-direction: column;
-  }
-  .advisor-container {
-    flex-direction: column-reverse;
   }
 }
 @media (max-width: 576px) {

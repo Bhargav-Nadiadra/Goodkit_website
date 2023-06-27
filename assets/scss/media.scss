@@ -4,6 +4,10 @@
     margin: 0 auto;
 }
 
+  .advisor-container{
+    flex-direction: row-reverse;
+  }
+
 }
 
 @media (max-width: 1399px){
@@ -32,6 +36,11 @@
 line-height: 55.12px;
  
 }
+
+  .advisor-container{
+    flex-direction: row-reverse;
+  }
+
 
 
 }
@@ -130,9 +139,7 @@ line-height: 43.12px;
   .advisor-left{
     padding: 0;
   }
-  .advisor-container{
-    flex-direction: row;
-  }
+
 
   .testimonial-heading{
   font-size: 30px;
@@ -197,11 +204,6 @@ line-height: 33.12px;
 
     .stats{
     flex-direction: column;
-  }
-
-      
-  .advisor-container{
-    flex-direction: column-reverse;
   }
 
 
