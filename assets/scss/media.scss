@@ -1,13 +1,12 @@
 @media (min-width: 1400px){
 .container{
-    max-width: 1440px;
-    margin: 0 auto;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-  .advisor-container{
-    flex-direction: row-reverse;
-  }
-
+.advisor-container{
+  flex-direction: row-reverse;
+}
 }
 
 @media (max-width: 1399px){
@@ -22,9 +21,10 @@
 .about-us-content{
   margin: 0 87px 0 111px;
 }
+
 .main-heading-big {
-    font-size: 58px;
-    line-height: 47.12px;
+  font-size: 58px;
+  line-height: 47.12px;
 }
 
 .left-hero-section{
@@ -33,16 +33,34 @@
 
 .testimonial-heading{
   font-size: 53px;
-line-height: 55.12px;
- 
+  line-height: 55.12px;
 }
 
-  .advisor-container{
-    flex-direction: row-reverse;
+.advisor-container{
+  flex-direction: row-reverse;
+}
+ .left-download{
+    margin-left: 0;
   }
 
+  .right-download{
+    margin: 50px 0 0 0;
+  }
 
+    .circle-pattern-right{
+    top: 0;
+    left: 135px;
 
+}
+
+.circle-pattern-left{
+    bottom: 90px;
+    left: 10px;
+  }
+
+    .footer-links{
+        padding: 97px 100px 129px 100px;
+    }
 }
 
 @media (max-width: 1199px){
@@ -55,34 +73,31 @@ line-height: 55.12px;
   }
 
   .sub-content{
-  max-width: 100%;
-}
-
-  .advisor-section{
-    padding-left: 40px;
+    max-width: 100%;
   }
 
-    .advisor-left{
+  .advisor-left{
     padding-right: 10px;
   }
-
 
   .price-heading{
     font-size: 35px;
   }
-
   
   .main-heading-small{
     font-size: 38px;
     line-height: 40px;
   }
-.testimonial-heading{
-  font-size: 40px;
-line-height: 43.12px;
- 
-}
-
-
+  
+  .testimonial-heading{
+    font-size: 40px;
+    line-height: 43.12px;
+  }
+  
+  .try{
+    font-size: 60px;
+    line-height: 63.12px;
+  }
 }
 
 
@@ -107,7 +122,6 @@ line-height: 43.12px;
     line-height: 53.18px;
   }
 
-
   .plus-pattern{
     top: -43%;
     left: 9%;
@@ -122,34 +136,44 @@ line-height: 43.12px;
   }
 
    .right-hero-section{
-  max-width: 530px;
+    max-width: 530px;
   }
 
   .sub-content{
     font-size: 12px;
     line-height: 18px;
   }
-
-
   
   .advisor-section{
-    padding: 0;
+    padding: 0 10px;
   }
 
   .advisor-left{
     padding: 0;
   }
 
-
   .testimonial-heading{
-  font-size: 30px;
-line-height: 33.12px;
- 
-}
-
-.slider .prev-arrow, .slider .next-arrow {
+    font-size: 30px;
+    line-height: 33.12px;
+  }
+  
+  .slider .prev-arrow, .slider .next-arrow {
     padding: 12px;
-}
+  }
+
+   .footer-links{
+    flex-direction: column;
+    padding: 97px 100px 129px 100px;
+  }
+
+    .quick-links{
+      margin-top: 20px;
+    }
+
+    .price-main-heading{
+      font-size: 40px;
+      line-height: 43.12px;
+  }
 
   
 }
@@ -171,7 +195,6 @@ line-height: 33.12px;
     font-size: 16px;
   }
 
-
   .right-hero-section{
     position: relative;
     top: 0;
@@ -187,28 +210,81 @@ line-height: 33.12px;
   }
   
   .btn{
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-}
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
 
   .plus-pattern{
-      top: -23%;
+    top: -23%;
     left: 12%;
   }
 
-  
    .right-hero-section{
-  max-width: 740px;
+    max-width: 740px;
   }
 
-    .stats{
+  .stats{
     flex-direction: column;
   }
 
+  .download-wrapper{
+    flex-direction: column;
+  }
+
+  .circle-pattern-right{
+    top: 0;
+    left: 360px;
+
+}
+
+.circle-pattern-left{
+    bottom: 365px;
+    left: 100px;
+  }
+
+  .footer-links{
+    padding: 97px 70px 129px 70px;
+  }
+
+  .stories-pricing{
+    margin-top: 0;
+
+    .stories-content{
+      padding: 152px 20px 58px 20px;
+    }
+  }
+
+  .form-container{
+    flex-direction: column;
+  }
+
+  .form-heading{
+    padding: 0;
+  }
+
+  .mobile-view{
+    flex-direction: column;
+    text-align: start;
+  }
+
+  .plan-pricing{
+    flex-direction: column;
+    padding: 0 31px 36px 24px;
+  }
+
+  .form-detail {
+    padding: 0 31px 0 24px;
+}
+
+.try-btn{
+  padding: 12px 106px 12px 106px;
+  margin-top: 23px;
+}
 
 
 
+  
 }
 
 @media (max-width: 576px) {
@@ -241,7 +317,7 @@ line-height: 33.12px;
     font-size: 40px;
     line-height: 43.2px;
     font-weight: 400;
-}
+  }
 
   .btn{
     display: none;
@@ -306,14 +382,57 @@ line-height: 33.12px;
 
   .slider .prev-arrow, .slider .next-arrow {
     padding: 10px;
+  }
+  
+  .profile-pic{
+    margin-top: 20px;
+  }
+
+  .download-section{
+    padding: 0 10px;
+  }
+
+  .download-wrapper{
+    flex-direction: column;
+  }
+  .left-download{
+    margin-left: 0;
 }
 
-.profile-pic{
-  margin-top: 20px;
+.right-download{
+    margin: 100px 0 0 0 ;
 }
 
+.buttons{
+  align-items: center;
+  .apple-btn{
+    max-width: 119px;
+  }
+  .google-btn{
+    max-width: 127px;
+  }
+}
 
+.try{
+  font-size: 48px;
+  line-height: 51.12px;
+}
 
+.btn .try-btn{
+  display: initial;
+}
 
+.circle-pattern-right{
+  top: -30px;
+  left: 160px;
+}
 
+.circle-pattern-left{
+  bottom: 360px;
+  left: 5px;
+}
+
+ .footer-links{
+    padding: 97px 35px 129px 35px;
+  }
 } 

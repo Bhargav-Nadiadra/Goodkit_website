@@ -31,6 +31,23 @@
   .advisor-container {
     flex-direction: row-reverse;
   }
+  .left-download {
+    margin-left: 0;
+  }
+  .right-download {
+    margin: 50px 0 0 0;
+  }
+  .circle-pattern-right {
+    top: 0;
+    left: 135px;
+  }
+  .circle-pattern-left {
+    bottom: 90px;
+    left: 10px;
+  }
+  .footer-links {
+    padding: 97px 100px 129px 100px;
+  }
 }
 @media (max-width: 1199px) {
   .main-heading-big {
@@ -41,9 +58,6 @@
   }
   .sub-content {
     max-width: 100%;
-  }
-  .advisor-section {
-    padding-left: 40px;
   }
   .advisor-left {
     padding-right: 10px;
@@ -58,6 +72,10 @@
   .testimonial-heading {
     font-size: 40px;
     line-height: 43.12px;
+  }
+  .try {
+    font-size: 60px;
+    line-height: 63.12px;
   }
 }
 @media (max-width: 992px) {
@@ -94,7 +112,7 @@
     line-height: 18px;
   }
   .advisor-section {
-    padding: 0;
+    padding: 0 10px;
   }
   .advisor-left {
     padding: 0;
@@ -105,6 +123,17 @@
   }
   .slider .prev-arrow, .slider .next-arrow {
     padding: 12px;
+  }
+  .footer-links {
+    flex-direction: column;
+    padding: 97px 100px 129px 100px;
+  }
+  .quick-links {
+    margin-top: 20px;
+  }
+  .price-main-heading {
+    font-size: 40px;
+    line-height: 43.12px;
   }
 }
 @media (max-width: 768px) {
@@ -144,6 +173,47 @@
   }
   .stats {
     flex-direction: column;
+  }
+  .download-wrapper {
+    flex-direction: column;
+  }
+  .circle-pattern-right {
+    top: 0;
+    left: 360px;
+  }
+  .circle-pattern-left {
+    bottom: 365px;
+    left: 100px;
+  }
+  .footer-links {
+    padding: 97px 70px 129px 70px;
+  }
+  .stories-pricing {
+    margin-top: 0;
+  }
+  .stories-pricing .stories-content {
+    padding: 152px 20px 58px 20px;
+  }
+  .form-container {
+    flex-direction: column;
+  }
+  .form-heading {
+    padding: 0;
+  }
+  .mobile-view {
+    flex-direction: column;
+    text-align: start;
+  }
+  .plan-pricing {
+    flex-direction: column;
+    padding: 0 31px 36px 24px;
+  }
+  .form-detail {
+    padding: 0 31px 0 24px;
+  }
+  .try-btn {
+    padding: 12px 106px 12px 106px;
+    margin-top: 23px;
   }
 }
 @media (max-width: 576px) {
@@ -222,5 +292,44 @@
   }
   .profile-pic {
     margin-top: 20px;
+  }
+  .download-section {
+    padding: 0 10px;
+  }
+  .download-wrapper {
+    flex-direction: column;
+  }
+  .left-download {
+    margin-left: 0;
+  }
+  .right-download {
+    margin: 100px 0 0 0;
+  }
+  .buttons {
+    align-items: center;
+  }
+  .buttons .apple-btn {
+    max-width: 119px;
+  }
+  .buttons .google-btn {
+    max-width: 127px;
+  }
+  .try {
+    font-size: 48px;
+    line-height: 51.12px;
+  }
+  .btn .try-btn {
+    display: initial;
+  }
+  .circle-pattern-right {
+    top: -30px;
+    left: 160px;
+  }
+  .circle-pattern-left {
+    bottom: 360px;
+    left: 5px;
+  }
+  .footer-links {
+    padding: 97px 35px 129px 35px;
   }
 }/*# sourceMappingURL=media.css.map */
