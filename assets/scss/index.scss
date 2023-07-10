@@ -338,6 +338,19 @@ hr {
   padding-top: 100px;
 }
 
+.stories-bg {
+  position: absolute;
+  top: -205px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  min-height: 845px;
+  background: #1b1642;
+  z-index: -1;
+  transform: skewY(6deg);
+  transform-origin: top left;
+}
+
 .stories-section {
   padding-bottom: 169px;
   .stories-content {
@@ -373,6 +386,19 @@ hr {
 
 .slick-list {
   cursor: grab;
+}
+
+.pricing-bg {
+  position: absolute;
+  top: 0;
+  bottom: 160px;
+  right: 0;
+  left: 0;
+  min-height: 845px;
+  background: #1b1642;
+  z-index: -1;
+  transform: skewY(-6deg);
+  transform-origin: top left;
 }
 
 .price-main-heading {
@@ -525,30 +551,4 @@ footer {
 
 .footer-links {
   padding: 97px 208px 129px 166px;
-}
-
-.pricing-bg {
-  position: absolute;
-  top: 0;
-  bottom: 160px;
-  right: 0;
-  left: 0;
-  min-height: 845px;
-  background: #1b1642;
-  z-index: -1;
-  transform: skewY(-6deg);
-  transform-origin: top left;
-}
-
-.stories-bg {
-  position: absolute;
-  top: -205px;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  min-height: 845px;
-  background: #1b1642;
-  z-index: -1;
-  transform: skewY(6deg);
-  transform-origin: top left;
 }
