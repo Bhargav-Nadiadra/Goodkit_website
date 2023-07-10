@@ -79,9 +79,18 @@
   .price-heading {
     font-size: 35px;
   }
+  .standard-form {
+    padding: 56px 80px 60px 80px;
+  }
+  .professional-form {
+    padding: 250px 40px 60px 40px;
+  }
   .main-heading-small {
     font-size: 38px;
     line-height: 40px;
+  }
+  .try-btn {
+    padding: 10px 20px 10px 20px;
   }
   .btn .get-started {
     padding: 10px 20px 10px 20px;
@@ -162,6 +171,12 @@
   .form-detail {
     padding: 0 20px;
   }
+  .standard-form {
+    padding: 56px 20px 10px 20px;
+  }
+  .professional-form {
+    padding: 150px 20px 60px 21px;
+  }
   .plan-pricing {
     padding: 0 20px 30px 20px;
   }
@@ -236,6 +251,12 @@
     flex-direction: column;
     margin-top: 35px;
   }
+  .standard-form {
+    padding: 56px 50px 10px 50px;
+  }
+  .professional-form {
+    padding: 80px 60px 60px 60px;
+  }
   .form-heading {
     padding: 0;
   }
@@ -298,7 +319,7 @@
     transform: translateX(-50%);
   }
   .stats-card-container {
-    margin-top: 165px;
+    margin-top: 118px;
     margin-left: 0;
   }
   .price-heading {
@@ -372,16 +393,28 @@
     margin-left: 0;
     margin-bottom: 70px;
   }
+  .mobile-form {
+    margin-top: 32px;
+  }
   .price-main-heading {
     margin-top: 54px;
   }
   .pricing-bg {
-    bottom: -65px;
+    bottom: 185px;
     top: -70px;
   }
   .form-circle-pattern {
-    bottom: 204px;
+    bottom: 344px;
     left: -68px;
+  }
+  .standard-form {
+    padding: 0 24px;
+  }
+  .standard-bottom-hr {
+    margin: 22px 0 25px 0;
+  }
+  .professional-form {
+    padding: 0 24px;
   }
   .give-us-try {
     margin-top: 89px;

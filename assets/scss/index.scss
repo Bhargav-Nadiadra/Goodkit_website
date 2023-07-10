@@ -7,7 +7,7 @@ $primary: #6658ea;
   box-sizing: border-box;
   font-family: "DM Sans", sans-serif;
   font-family: "DM Serif Display", serif;
-  border: 1px solid red;
+  // border: 1px solid red;
 }
 
 p {
@@ -339,6 +339,7 @@ hr {
 }
 
 .stories-section {
+  padding-bottom: 169px;
   .stories-content {
     padding: 112px 136px 58px 136px;
     column-gap: 90px;
@@ -396,8 +397,28 @@ hr {
   margin-left: 173px;
 }
 
-.form-heading {
+.standard-form {
   padding: 56px 97px 60px 96px;
+}
+
+.professional-form {
+  padding: 250px 64px 60px 64px;
+}
+
+.price-hr {
+  margin: 20px 0;
+}
+
+.standard {
+  box-shadow: 0px 44px 74px 0px #1a15470f, 0px 0px 24px 0px #0000000a;
+}
+
+.standard-bottom-hr {
+  margin: 75px 0 36px 0;
+}
+
+.professional-bottom-hr {
+  margin: 0 0 36px 0;
 }
 
 .form-detail {
@@ -416,7 +437,8 @@ hr {
   font-family: "DM Sans";
   line-height: 28.8px;
   color: #1b1642;
-  margin-top: 19px;
+  display: flex;
+  align-items: center;
 }
 
 .detail-price {
@@ -425,7 +447,8 @@ hr {
   font-family: "DM Sans";
   line-height: 28.8px;
   color: #1b1642;
-  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
 }
 
 .dollor {
@@ -507,13 +530,13 @@ footer {
 .pricing-bg {
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: 160px;
   right: 0;
   left: 0;
   min-height: 845px;
   background: #1b1642;
   z-index: -1;
-  transform: skewY(-15deg);
+  transform: skewY(-6deg);
   transform-origin: top left;
 }
 
