@@ -175,7 +175,7 @@
 
   .sub-content {
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
   }
 
   .advisor-section {
@@ -397,7 +397,7 @@
   }
 
   .plus-pattern {
-    top: -8%;
+    top: -6%;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -443,7 +443,7 @@
   }
 
   .testimonial-heading {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 22.12px;
   }
 
@@ -473,12 +473,12 @@
   }
 
   .circle-pattern-right {
-    right: 25px;
+    right: -15px;
   }
 
   .circle-pattern-left {
-    bottom: -2px;
-    left: -15px;
+    bottom: -54px;
+    left: -12px;
   }
 
   .buttons {
@@ -494,6 +494,14 @@
   .story-wrapper {
     margin-left: 0;
     margin-bottom: 70px;
+  }
+
+  .stories-section {
+    padding-bottom: 0;
+  }
+
+  .stories-section .stories-content {
+    padding: 50px 10px 58px 10px;
   }
 
   .mobile-form {
@@ -527,12 +535,17 @@
   }
 
   .give-us-try {
-    margin-top: 89px;
+    margin-top: 59px;
   }
 
   .try {
     font-size: 48px;
     line-height: 51.12px;
+  }
+
+  .try-btn {
+    padding: 12px 30px 12px 30px;
+    margin-top: 0;
   }
 
   .btn .try-btn {
@@ -541,7 +554,7 @@
 
   .footer-links {
     text-align: center;
-    padding: 97px 40px 129px 40px;
+    padding: 30px 20px 20px 20px;
   }
 
   .quick-links {
