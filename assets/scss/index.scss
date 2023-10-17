@@ -124,7 +124,7 @@ li {
   bottom: 0;
   right: 0;
   left: 0;
-  min-height: 1000px;
+  min-height: 945px;
   background: #f3f8ff;
   z-index: -1;
   transform: skewY(-6deg);
@@ -132,7 +132,7 @@ li {
 }
 
 .hero-section {
-  padding-bottom: 355px;
+  padding-bottom: 525px;
 }
 
 .hero-info {
@@ -188,7 +188,7 @@ li {
 .stats-card-container {
   z-index: 10;
   margin-left: 164px;
-  margin-top: -145px;
+  margin-top: -120px;
   max-width: 448px;
 }
 
@@ -219,8 +219,8 @@ hr {
 }
 
 .advisor-section {
-  margin-bottom: 200px;
-  margin-top: 131px;
+  margin-bottom: 30px;
+  margin-top: 100px;
 }
 
 .advisor-left {
@@ -276,7 +276,7 @@ hr {
 }
 
 .management {
-  margin-top: 97px;
+  margin-top: 60px;
 }
 
 .testimonial-content {
@@ -312,35 +312,34 @@ hr {
 
 .circle-pattern-right {
   position: absolute;
-  top: -30px;
-  right: -12px;
+  top: -15px;
+  right: 0;
   max-width: 185px;
   z-index: -1;
 }
 
 .circle-pattern-left {
   position: absolute;
-  bottom: 115px;
+  bottom: 155px;
   left: -76px;
   max-width: 185px;
   z-index: -1;
 }
 
 .left-download {
-  max-width: 396px;
   margin-left: 141px;
   z-index: 100;
 }
 
 .right-download {
-  margin-left: 177px;
-  margin-right: 170px;
   padding-top: 100px;
+  max-width: 504px;
+  margin-left: 244px;
 }
 
 .stories-bg {
   position: absolute;
-  top: -205px;
+  top: -245px;
   bottom: 0;
   right: 0;
   left: 0;
@@ -352,9 +351,9 @@ hr {
 }
 
 .stories-section {
-  padding-bottom: 169px;
+  padding-bottom: 130px;
   .stories-content {
-    padding: 112px 136px 58px 136px;
+    padding: 112px 136px 35px 136px;
     column-gap: 90px;
   }
 }
@@ -394,7 +393,7 @@ hr {
   bottom: 160px;
   right: 0;
   left: 0;
-  min-height: 845px;
+  min-height: 758px;
   background: #1b1642;
   z-index: -1;
   transform: skewY(-6deg);
@@ -407,7 +406,7 @@ hr {
   font-family: "DM Serif Display", serif;
   line-height: 69.12px;
   color: #1b1642;
-  margin-top: 82px;
+  margin-top: 60px;
 }
 
 .form-circle-pattern {
@@ -424,11 +423,11 @@ hr {
 }
 
 .standard-form {
-  padding: 56px 97px 60px 96px;
+  padding: 56px 97px 1px 96px;
 }
 
 .professional-form {
-  padding: 250px 64px 60px 64px;
+  padding: 212px 64px 60px 64px;
 }
 
 .price-hr {
@@ -440,7 +439,7 @@ hr {
 }
 
 .standard-bottom-hr {
-  margin: 75px 0 36px 0;
+  margin: 50px 0 36px 0;
 }
 
 .professional-bottom-hr {
@@ -453,7 +452,7 @@ hr {
 
 .professional {
   background: #342e6c;
-  margin: 33px 0;
+  margin: 23px 0;
   position: relative;
 }
 
@@ -493,7 +492,7 @@ hr {
 }
 
 .plan-pricing {
-  padding: 0 63px 38px 39px;
+  padding: 0 63px 20px 39px;
 }
 .give-us-try {
   margin-top: 216px;
@@ -539,6 +538,7 @@ footer {
   background: #1b1642;
   ul {
     li {
+      line-height: 2.2;
       list-style: none;
       a {
         text-decoration: none;

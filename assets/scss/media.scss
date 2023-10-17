@@ -74,7 +74,7 @@
   }
 
   .footer-links {
-    padding: 97px 100px 129px 100px;
+    padding: 97px 20px 129px 20px;
   }
 }
 
@@ -180,6 +180,7 @@
 
   .advisor-section {
     padding: 0 10px;
+    margin-top: 10px;
   }
 
   .advisor-left {
@@ -226,7 +227,6 @@
 
   .footer-links {
     flex-direction: column;
-    padding: 97px 100px 129px 100px;
   }
 
   .quick-links {
@@ -283,6 +283,10 @@
     max-width: 740px;
   }
 
+  .right-download {
+    padding-top: 0;
+  }
+
   .stats {
     flex-direction: column;
   }
@@ -294,10 +298,6 @@
   .download-wrapper {
     flex-direction: column;
     align-items: center;
-  }
-
-  .footer-links {
-    padding: 97px 70px 129px 70px;
   }
 
   .stories-bg {
@@ -354,6 +354,9 @@
 
   nav {
     padding-top: 16px;
+  }
+  .mobile-nav {
+    justify-content: space-evenly;
   }
 
   .link-spacing {
@@ -413,7 +416,7 @@
   }
 
   .stats-card {
-    padding: 50px 16px 45px 39px;
+    padding: 40px 15px 40px 15px;
   }
 
   .about-us-content {
@@ -518,7 +521,7 @@
   }
 
   .form-circle-pattern {
-    bottom: 344px;
+    bottom: 360px;
     left: -68px;
   }
 
