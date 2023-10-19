@@ -3,16 +3,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "DM Sans", sans-serif;
-  font-family: "DM Serif Display", serif;
 }
 
 p {
   margin: 0;
   padding: 0;
+  font-family: "DM Sans", sans-serif !important;
 }
 
 h1 {
+  font-family: "DM Serif Display", serif;
   margin: 0;
 }
 
@@ -39,7 +39,7 @@ h1 {
   line-height: 32px;
   font-family: "DM Sans", sans-serif;
   color: #1b1642;
-  margin-top: 36px;
+  margin-top: 32px;
   margin-bottom: 7px;
 }
 
@@ -58,6 +58,19 @@ h1 {
   font-family: "DM Sans", sans-serif;
   line-height: 28.8px;
   color: #1b1642;
+}
+
+.hero-next-card {
+  margin-left: 5px;
+}
+
+.check-list-font-left {
+  font-size: 18px;
+  padding-left: 2rem;
+}
+
+.check-list-font-right {
+  padding-left: 0.5rem;
 }
 
 .main-heading-mobile {
@@ -107,10 +120,12 @@ nav {
 
 li a {
   color: #1b1642;
+  font-family: "DM Sans";
+  font-size: 18px;
 }
 
 .link-spacing {
-  margin: 0 56px;
+  margin: 0 62px 0 58px;
 }
 
 .skewed {
@@ -119,7 +134,7 @@ li a {
   bottom: 0;
   right: 0;
   left: 0;
-  min-height: 945px;
+  min-height: 975px;
   background: #f3f8ff;
   z-index: -1;
   transform: skewY(-6deg);
@@ -127,66 +142,68 @@ li a {
 }
 
 .hero-section {
-  padding-bottom: 525px;
+  padding-bottom: 380px;
 }
 
 .hero-info {
-  max-width: 388px;
+  max-width: 430px;
 }
 
 .left-hero-section {
-  padding-top: 136px;
-  padding-left: 160px;
+  padding-top: 228px;
+  padding-left: 132px;
 }
 
 .right-hero-section {
   position: absolute;
-  top: 0;
-  right: 0;
-  max-width: 840px;
+  top: 80px;
+  right: -4px;
+  max-width: 985px;
   z-index: -1;
 }
 
 .btn {
-  padding: 0;
+  padding: 12px 0;
+  font-size: 18px;
 }
 .btn .get-started {
   background: #6658ea;
   border: none;
-  padding: 15px 28px 15px 28px;
+  padding: 18px 35px 15px 29px;
   border-radius: 8px 0 8px 0;
   color: white;
-  margin-right: 18px;
+  margin-right: 13px;
   box-shadow: 0px 14px 24px 0px rgba(27, 22, 66, 0.06), 0px 0px 6px 0px rgba(0, 0, 0, 0.03);
 }
 .btn .learn-more {
   background: white;
   color: #6658ea;
   border: none;
-  padding: 15px 28px 15px 28px;
+  padding: 18px 28px 16px 28px;
   border-radius: 8px 0 8px 0;
   box-shadow: 0px 14px 24px 0px rgba(27, 22, 66, 0.06), 0px 0px 6px 0px rgba(0, 0, 0, 0.03);
 }
 
 .plus-pattern {
   position: absolute;
-  top: -50px;
-  left: -50px;
+  top: -41px;
+  left: -52px;
   max-width: 278px;
   z-index: -1;
 }
 
 .stats-card-container {
   z-index: 10;
-  margin-left: 164px;
+  margin-left: 149px;
   margin-top: -120px;
   max-width: 448px;
 }
 
 .stats-card {
+  margin: 0px -12px;
   border-radius: 20px 0 20px 0;
   background: white;
-  padding: 50px 108px 50px 44px;
+  padding: 50px 30px 47px 42px;
   box-shadow: 0px 44px 74px 0px rgba(26, 21, 71, 0.0588235294), 0px 0px 24px 0px rgba(0, 0, 0, 0.0392156863);
 }
 
@@ -205,21 +222,26 @@ hr {
 }
 
 .about-us-content {
+  margin-top: -40px;
   margin-left: 222px;
-  margin-right: 174px;
+  margin-right: 142px;
 }
 
 .advisor-section {
-  margin-bottom: 30px;
   margin-top: 100px;
 }
 
 .advisor-left {
-  padding-top: 131px;
-  padding-right: 84px;
+  padding-top: 30px;
+  padding-right: 135px;
+}
+
+.advisor-right {
+  margin-top: -128px;
 }
 
 .common-hr {
+  margin-top: 71px;
   width: 78px;
   border: 2px solid #ffc267;
   opacity: 100%;
@@ -247,7 +269,7 @@ hr {
 .slider .prev-arrow {
   background: #6658ea;
   color: white;
-  padding: 23px;
+  padding: 22px;
   cursor: pointer;
 }
 
@@ -267,7 +289,7 @@ hr {
 }
 
 .management {
-  margin-top: 60px;
+  margin-top: 97px;
 }
 
 .testimonial-content {
@@ -282,6 +304,8 @@ hr {
 }
 
 .name {
+  margin-left: -8px;
+  margin-top: 11px;
   font-size: 18px;
   font-weight: 500;
   font-family: "DM Sans";
@@ -290,6 +314,8 @@ hr {
 }
 
 .name2 {
+  margin-left: -8px;
+  margin-top: -3px;
   font-size: 16px;
   font-weight: 400;
   font-family: "DM Sans";
@@ -298,46 +324,46 @@ hr {
 }
 
 .download-section {
-  margin-top: 101px;
+  margin-top: 118px;
 }
 
 .circle-pattern-right {
   position: absolute;
-  top: -15px;
-  right: 0;
+  top: -17px;
+  right: 6px;
   max-width: 185px;
   z-index: -1;
 }
 
 .circle-pattern-left {
   position: absolute;
-  bottom: 155px;
-  left: -76px;
+  bottom: 142px;
+  left: -80px;
   max-width: 185px;
   z-index: -1;
 }
 
 .left-download {
-  margin-left: 141px;
+  margin-left: 129px;
   z-index: 100;
 }
 
 .right-download {
-  padding-top: 100px;
+  padding-top: 134px;
   max-width: 504px;
-  margin-left: 244px;
+  margin-left: 171px;
 }
 
 .stories-bg {
   position: absolute;
-  top: -245px;
+  top: -237px;
   bottom: 0;
   right: 0;
   left: 0;
   min-height: 845px;
   background: #1b1642;
   z-index: -1;
-  transform: skewY(6deg);
+  transform: skewY(7deg);
   transform-origin: top left;
 }
 
@@ -489,7 +515,7 @@ hr {
 
 .give-us-try {
   margin-top: 216px;
-  padding-bottom: 272px;
+  padding-bottom: 312px;
 }
 
 .try {
