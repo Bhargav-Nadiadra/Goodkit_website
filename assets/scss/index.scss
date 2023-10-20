@@ -162,7 +162,7 @@ li {
 .right-hero-section {
   position: absolute;
   top: 80px;
-  right: -4px;
+  right: 4px;
   max-width: 985px;
   z-index: -1;
 }
@@ -242,7 +242,7 @@ hr {
 
 .advisor-left {
   padding-top: 30px;
-  padding-right: 135px;
+  padding-right: 90px;
 }
 
 .advisor-right {
@@ -366,7 +366,7 @@ hr {
 .stories-bg {
   position: absolute;
   top: -237px;
-  bottom: 0;
+  bottom: -72px;
   right: 0;
   left: 0;
   min-height: 845px;
@@ -377,9 +377,9 @@ hr {
 }
 
 .stories-section {
-  padding-bottom: 130px;
+  padding-bottom: 65px;
   .stories-content {
-    padding: 112px 136px 35px 136px;
+    padding: 78px 87px 35px 115px;
     column-gap: 90px;
   }
 }
@@ -433,6 +433,8 @@ hr {
   line-height: 69.12px;
   color: #1b1642;
   margin-top: 60px;
+  margin-top: 82px;
+  margin-left: 52px;
 }
 
 .form-circle-pattern {
@@ -444,16 +446,16 @@ hr {
 
 .form-container {
   margin-top: 77px;
-  margin-right: 115px;
-  margin-left: 173px;
+  margin-right: 105px;
+  margin-left: 159px;
 }
 
 .standard-form {
-  padding: 56px 97px 1px 96px;
+  padding: 55px 66px 1px 75px;
 }
 
 .professional-form {
-  padding: 212px 64px 60px 64px;
+  padding: 196px 65px 60px 60px;
 }
 
 .price-hr {
@@ -473,7 +475,7 @@ hr {
 }
 
 .form-detail {
-  padding: 0 65px 0 62px;
+  padding: 9px 66px 24px 64px;
 }
 
 .professional {
@@ -518,11 +520,11 @@ hr {
 }
 
 .plan-pricing {
-  padding: 0 63px 20px 39px;
+  padding: 0px 68px 32px 44px;
 }
 .give-us-try {
-  margin-top: 216px;
-  padding-bottom: 312px;
+  margin-top: 296px;
+  padding-bottom: 272px;
 }
 
 .try {
@@ -533,7 +535,7 @@ hr {
 .try-btn {
   background: #6658ea;
   border: none;
-  padding: 15px 28px 15px 28px;
+  padding: 15px 40px 15px 31px;
   border-radius: 8px 0 8px 0;
   color: white;
   box-shadow: 0px 14px 24px 0px rgba(27, 22, 66, 0.06),

@@ -152,6 +152,9 @@
   .advisor-left {
     padding: 0;
   }
+  .advisor-right {
+    margin-top: -30px;
+  }
   .testimonial-heading {
     font-size: 30px;
     line-height: 33.12px;
@@ -161,10 +164,16 @@
     padding: 12px;
   }
   .stories-bg {
-    top: -70px;
+    top: -222px;
   }
   .story-wrapper {
     margin-left: 0;
+  }
+  .right-download {
+    max-width: 335px;
+  }
+  .left-download {
+    margin-left: -30px;
   }
   .form-heading {
     padding: 50px;
@@ -233,6 +242,9 @@
   }
   .stats {
     flex-direction: column;
+  }
+  .check-list-font-left {
+    padding-left: 0.5rem;
   }
   .testimonial {
     margin-top: 112px;
@@ -307,11 +319,12 @@
   }
   .left-hero-section {
     text-align: center;
-    padding: 70% 0 0 0;
+    padding: 77% 0 0 0;
   }
   .right-hero-section {
     position: absolute;
     top: 70px;
+    right: 4px;
   }
   .stats-section {
     padding: 0 10px;
@@ -322,7 +335,7 @@
     transform: translateX(-50%);
   }
   .stats-card-container {
-    margin-top: 118px;
+    margin-top: 185px;
     margin-left: 0;
   }
   .price-heading {
@@ -330,13 +343,16 @@
     line-height: 38.52px;
   }
   .stats-card {
-    padding: 40px 15px 40px 15px;
+    padding: 52px 6px 40px 6px;
   }
   .about-us-content {
     margin: 0;
   }
   .advisor-section {
     margin: 40px 0;
+  }
+  .advisor-right {
+    margin-top: -70px;
   }
   .main-heading-small {
     font-size: 32px;
@@ -377,11 +393,11 @@
     padding-top: 0;
   }
   .circle-pattern-right {
-    right: -15px;
+    right: -9px;
   }
   .circle-pattern-left {
     bottom: -54px;
-    left: -12px;
+    left: -6px;
   }
   .buttons {
     align-items: center;
